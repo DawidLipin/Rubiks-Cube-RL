@@ -4,7 +4,7 @@ from ray import air, tune
 from ray.rllib.algorithms.appo import APPO, APPOConfig
 from ray.tune.registry import register_env
 
-from rubiks_cube.gym_env.cube_env import CubeEnv
+from gym_env.cube_env import CubeEnv
 
 select_env = "2x2x2_cube-v0"
 register_env(select_env, lambda config: TimeLimit(CubeEnv(), max_episode_steps=50))

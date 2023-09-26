@@ -117,5 +117,5 @@ class CubeEnv(gym.Env):
 
         self._elapsed_steps += 1
 
-        # Returning False, since I'm using Tune to limit max_episode_steps rather than gym
+        # Returning False, since we are using Tune to limit max_episode_steps (rather than gym)
         return observation, reward, terminated, False, info
