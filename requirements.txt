@@ -1,3 +1,0 @@
-gymnasium==0.29.0
-numpy==1.25.1
-ray==2.5.1
