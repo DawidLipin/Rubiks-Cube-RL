@@ -6,7 +6,8 @@ This project implements a reinforcement learning algorithm in PyTorch for traini
 
 **Installation**
    - Clone the repository: `git clone https://github.com/DawidLipin/Rubiks-Cube-RL.git`
-   - Install dependencies: `pip install -r requirements.txt`
+   - Create a Conda environment from the `environment.yml` file: `conda env create -f environment.yml`
+   - Activate the Conda environment: `conda activate Rubiks_cube`
 
 **Usage**
    - The reinforcement learning model can be trained by running: `main.py`
